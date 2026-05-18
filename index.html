@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Allmonit | 거창한 혁신보다 오늘 쓰기 편한 앱을 만듭니다</title>
+  <meta name="description"
+    content="Allmonit(올머닛)은 복잡한 일상을 조금 더 가볍게 만들어주는, 진짜 쓸모 있는 도구를 서비스합니다. 첫 번째 프로젝트인 DayMonit(데이모닛)을 만나보세요.">
+  <meta name="keywords" content="Allmonit, 올머닛, DayMonit, 데이모닛, 공수기록, 임금기록, 일용직 달력, 일당 정산, 근무일지, 쓸모 있는 도구">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://allmonit.github.io/">
+  <meta property="og:title" content="Allmonit | 거창한 혁신보다 오늘 쓰기 편한 앱을 만듭니다">
+  <meta property="og:description" content="복잡한 일상을 조금 더 가볍게 만들어주는, 진짜 쓸모 있는 도구를 서비스합니다.">
+  <meta property="og:image" content="assets/daymonit_icon.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:url" content="https://allmonit.github.io/">
+  <meta property="twitter:title" content="Allmonit | 거창한 혁신보다 오늘 쓰기 편한 앱을 만듭니다">
+  <meta property="twitter:description" content="복잡한 일상을 조금 더 가볍게 만들어주는, 진짜 쓸모 있는 도구를 서비스합니다.">
+  <meta property="twitter:image" content="assets/daymonit_icon.png">
+
+  <!-- Google Material Symbols CDN -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    rel="stylesheet" />
+
+  <!-- Google Fonts Noto Sans KR CDN -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/daymonit_icon.png">
+</head>
+
+<body>
+
+  <!-- Top App Bar (Header) -->
+  <header class="top-app-bar" id="topAppBar">
+    <a href="#" class="logo">
+      Allmonit
+    </a>
+    <a href="mailto:contact@allmonit.com" class="btn-primary"
+      style="font-size: 0.78rem; padding: 6px 14px; height: 32px;">
+      <span class="material-symbols-rounded" style="font-size: 16px;">mail</span>
+      문의하기
+    </a>
+  </header>
+
+  <main>
+    <!-- Hero Section (Typography-focused Minimal Layout) -->
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <div class="hero-badge">
+            <span class="material-symbols-rounded">bolt</span>
+            실용적인 일상의 도구
+          </div>
+          <h1 class="hero-title display-large">
+            <span>당장 오늘 쓰기 편한 앱을 만듭니다.</span>
+          </h1>
+          <p class="hero-subtitle body-large">
+            복잡한 일상을 조금 더 가볍게 만들어주는, 진짜 쓸모 있는 도구를 서비스합니다. 오늘 당장 당신의 손안에서 제 역할을 다하는 직관적인 제품에 집중합니다.
+          </p>
+          <div class="hero-actions">
+            <a href="#apps" class="btn-tonal">
+              <span class="material-symbols-rounded">arrow_downward</span>
+              앱 살펴보기
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- App List Section -->
+    <section class="app-section" id="apps">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="label-large" style="color: var(--md-sys-color-primary);">Product</span>
+          <h2 class="section-title headline-medium">올모닛이 서비스하는 앱</h2>
+          <p class="section-subtitle body-large">
+            실생활에 진짜 쓸모 있는 실용적인 앱을 직접 만들고 다듬어 나갑니다.
+          </p>
+        </div>
+
+        <div class="app-grid">
+          <!-- App Card: DayMonit -->
+          <article class="app-card" id="cardDayMonit">
+            <div>
+              <div class="app-header">
+                <div class="app-icon-frame">
+                  <img src="assets/daymonit_icon.png" alt="DayMonit App Icon">
+                </div>
+                <div class="app-meta-text">
+                  <h3 class="app-name title-large">DayMonit</h3>
+                  <span class="app-status-badge">
+                    <span class="material-symbols-rounded" style="font-size: 14px;">check_circle</span>
+                    출시 예정
+                  </span>
+                </div>
+              </div>
+
+              <div class="app-chips">
+                <span class="app-chip">일용직 근로</span>
+                <span class="app-chip">공수 기록</span>
+                <span class="app-chip">임금 정산</span>
+                <span class="app-chip">달력 일지</span>
+              </div>
+
+              <p class="app-desc body-medium">
+                DayMonit(데이모닛)은 직관적인 달력 기반의 일당 공수 기록 앱입니다. 매일의 근무와 수입을 달력에 꼼꼼하게 기록하고, 정산받을 금액을 확인하세요.
+              </p>
+
+              <a href="daymonit/index.html" class="btn-tonal"
+                style="width: 100%; margin-bottom: 24px; display: flex; justify-content: center; gap: 8px;">
+                <span class="material-symbols-rounded">arrow_forward</span>
+                자세히 보기
+              </a>
+            </div>
+
+            <div class="app-download-buttons">
+              <!-- Google Play (Disabled) -->
+              <button class="btn-store-disabled" aria-label="구글 플레이스토어에서 DayMonit 다운로드 (준비 중)">
+                <svg viewBox="0 0 512 512">
+                  <path
+                    d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58 33.3-60.1-60.1 60.1-60.1 58 33.3c13 7.5 21.7 19.9 21.7 33.5s-8.7 26-21.7 33.3zM385.4 337.8L104.6 499l220.7-126.9 60.1-74.3z" />
+                </svg>
+                <span>Google Play</span>
+                <span class="tooltip-text">곧 플레이스토어에서 만나요!</span>
+              </button>
+
+              <!-- App Store (Disabled) -->
+              <button class="btn-store-disabled" aria-label="애플 앱스토어에서 DayMonit 다운로드 (준비 중)">
+                <svg viewBox="0 0 384 512">
+                  <path
+                    d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-48.4-19.1-77.5-19.1-37.9 0-77.5 21.4-97 55.9-40 71-10.2 178 28.3 234.3 19 27.2 41.5 57.3 70.4 56.2 27.8-1.1 38.4-17.9 70.1-17.9 31.6 0 41.2 17.9 70.1 17.3 29.4-.5 49-27.2 68-54.7 21.8-31.7 30.7-62.6 31.1-64.2-1-1-66.2-25.5-66.8-101.8zM260.6 82.2c16-19.5 26.8-46.7 23.8-73.8-23.3 1-51.5 15.5-68.2 34.8-14.9 17.2-28 44.8-25 71.3 26 2 52.8-12.8 69.4-32.3z" />
+                </svg>
+                <span>App Store</span>
+                <span class="tooltip-text">곧 앱스토어에서 만나요!</span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (Simplified Layout) -->
+  <footer class="footer">
+    <div class="footer-container"
+      style="text-align: center; display: flex; flex-direction: column; align-items: center; gap: 16px;">
+      <div class="footer-logo">Allmonit</div>
+      <p class="footer-tagline body-medium" style="max-width: 500px; margin: 0 auto;">
+        오늘 당장 쓰기 편리한, 쓸모 있는 일상의 소프트웨어를 만듭니다.
+      </p>
+      <div class="footer-bottom"
+        style="width: 100%; border-top: 1px solid var(--md-sys-color-outline-variant); padding-top: 16px; margin-top: 8px; justify-content: center; gap: 8px;">
+        <p class="footer-copy">&copy; 2026 Allmonit. All rights reserved.</p>
+        <p class="footer-copy">| 문의: contact@allmonit.com</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Clean Scroll Script -->
+  <script>
+    const header = document.getElementById('topAppBar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 20) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+
+</html>

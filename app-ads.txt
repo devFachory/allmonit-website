@@ -1,0 +1,14 @@
+# ====================================================================
+# Allmonit AdMob app-ads.txt
+# 
+# 이 파일은 Allmonit이 배포하는 모바일 앱의 AdMob 광고 소유권을 증명하기 위한 파일입니다.
+# 귀하의 Google AdMob 퍼블리셔 ID로 변경하여 사용하시기 바랍니다.
+#
+# [설정 가이드]
+# 1. 아래의 'pub-XXXXXXXXXXXXXXXX'을 귀하의 AdMob 계정(설정 -> 계정 정보)에 기재된 
+#    16자리 퍼블리셔 ID로 교체하십시오.
+# 2. 이 파일은 GitHub Pages 도메인의 루트 경로(예: https://allmonit.github.io/app-ads.txt)에
+#    액세스할 수 있어야 AdMob 크롤러가 정상적으로 감지할 수 있습니다.
+# ====================================================================
+
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
