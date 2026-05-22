@@ -11,4 +11,4 @@
 #    액세스할 수 있어야 AdMob 크롤러가 정상적으로 감지할 수 있습니다.
 # ====================================================================
 
-google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+google.com, pub-9204616817759501, DIRECT, f08c47fec0942fa0
